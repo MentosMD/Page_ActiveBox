@@ -1,0 +1,9 @@
+.slider {
+  background: #53354A; }
+  .slider .slide-wrapper {
+    display: flex;
+    align-content: center; }
+  .slider .title {
+    font-size: 20px;
+    color: #fff;
+    font: italic 36px "Cardo", Georgia, "Times New Roman", serif; }

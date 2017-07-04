@@ -1,0 +1,27 @@
+.download{
+    .title{
+        font-size: 28px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #2d3033;
+        font-weight: 700;
+    }
+    .btn-download{
+        padding: 15px 40px;
+        text-decoration: none;
+        background: #e84545;
+        color: #fff;
+        font-size: 13px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 100%;
+        margin-top: 20px;
+        font-weight: 600;
+        transition: all .3s ease;
+        &:hover{
+            background: #CC3C3C;
+        }
+    }
+}

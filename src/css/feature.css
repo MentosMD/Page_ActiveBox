@@ -1,0 +1,11 @@
+.feature {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .feature .content-text h1 {
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    margin-bottom: 14px; }
+  .feature .content-text p {
+    font-size: 12px;
+    color: #6c7279; }

@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+      title ActiveBox
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+      link(rel="icon" type="img/png" href="../img/favicon.png")
+      link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous")
+      link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css")
+      link(href="../css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet")
+      link(href="../css/animate.css" rel="stylesheet")
+      link(href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet')
+      link(href="../app/bundle.css" rel="stylesheet")
+      script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+      script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous")
+      script(src="../js/swiper.min.js")
+      script(src="../js/common.js")
+    body  
+      .page-wrapper
+            include header.pug
+            
+            nav.navigation
+                  .row(style="justify-content: flex-end;")
+                    span.fa.fa-times-circle#btn_close
+                  .row(style="justify-content:center;")    
+                     ul.primary-nav
+                        li
+                          a(href="#") Features
+                        li
+                          a(href="#") Works
+                        li
+                          a(href="#") Our team
+                        li
+                          a(href="#") Testimonials
+                        li
+                          a(href="#") Download
+            
+            include feature.pug
+            
+            include works.pug
+            
+            include teams.pug
+            
+            include slider.pug
+            
+            include download.pug
+            
+            include footer.pug
