@@ -27,10 +27,12 @@ $(function(){
     
     $('#btn_menu_sm').bind('click', function(){
         $('.navigation').addClass('open-nav');
+        $(this).hide();
     });
     
     $("#btn_close").bind('click', function(){
         $('.navigation').removeClass('open-nav');
+        $('#btn_menu_sm').show();
     });
     
     //Carousel text
