@@ -1,12 +1,25 @@
 .slider{
     background: #53354A;
+    padding-bottom: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     .slide-wrapper{
             display: flex;
             align-content: center;
+        .just-text{
+            color: white;
+            font:italic 36px "Cardo", Georgia, "Times New Roman", serif
+        }
     }
     .title{
         font-size: 20px;
         color: #fff;
         font: italic 36px "Cardo", Georgia, "Times New Roman", serif
+    }
+    .swiper-pagination{
+        position: absolute;
+        top: 90%;
+        height: 27px;
     }
 }

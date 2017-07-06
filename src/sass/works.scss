@@ -25,13 +25,14 @@
             top: 0;
             left: 0;
             opacity: 0;
+            display: flex;
+            justify-content: center; 
             background: rgba(232, 69, 69, 0.9);
           }
             .overlay .overlay-caption{
                 color: white;
                 position: absolute;
                 top:44%;
-                left: 30%;
                  text-align: center;
                 h1{
                     text-transform: uppercase;
